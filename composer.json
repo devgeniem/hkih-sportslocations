@@ -1,0 +1,37 @@
+{
+    "name": "devgeniem/hkih-sportslocations",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "description": "HKIH SportsLocations related functionality",
+    "homepage": "https://geniem.com",
+    "authors": [
+        {
+            "name": "Ismo Vuorinen",
+            "email": "ismo.vuorinen@geniem.com",
+            "homepage": "https://github.com/ivuorinen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "keywords": [
+        "wordpress", "wp", "plugin"
+    ],
+    "require": {
+        "php": ">=7.4|>=8",
+        "composer/installers": ">=v1.7.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "HKIH\\SportsLocations\\": "src/",
+            "Geniem\\ACF\\": "../../mu-plugins/acf-codifier/src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
