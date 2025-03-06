@@ -3,7 +3,7 @@
  * Plugin Name: HKIH SportsLocations
  * Plugin URI: https://github.com/devgeniem/client-hkih
  * Description: HKIH SportsLocations functionality
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires PHP: 7.4
  * Author: Geniem Oy
  * Author URI: https://geniem.com
