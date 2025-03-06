@@ -9,6 +9,7 @@
     "extends": [
         "plugin:@wordpress/eslint-plugin/esnext"
     ],
+    "root": true,
     "rules": {
         "indent": [
             "warn",
